@@ -15,7 +15,7 @@ public class NumerosPrimos {
         if (numero <= 2) {
             numeroprimo = 0;
         }
-        // Exibe o resultado
+
         if (numeroprimo == 2) {
             System.out.println(numero + " é um numero primo.");
         } else {
