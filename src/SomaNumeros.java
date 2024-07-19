@@ -5,9 +5,9 @@ public class SomaNumeros { // Classe padrão
         int n = scanner("Digite um valor:").nextInt(); // recebendo valor int, scanner (input) nextInt (como vai retornar o valor inteiro)
         int soma = 0; // Uma variavel vazia para receber o valor do calculo
         for (int i = 1; i <= n; i++) {
-            soma += i; // laço de repetição (1) Primeira execução:
+            soma += i; // laço de repetição (1) Primeira execução, += operador aritimetico
             //i = 1
-           // n = 5
+           // n = oque o user escolher
            // soma = 0 + 1 ou seja, 1
           //  i = 1 + 1 ou seja, 2)
         } System.out.println(soma); //Este é um comando em Java usado para exibir dados no console.
