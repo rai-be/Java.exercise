@@ -15,7 +15,7 @@ public class NumerosPrimos {
         scanner.close();
     }
 
-    // verificando se um número é primo
+    // verificando se um numero é primo
     public static boolean verificarPrimo(int num) {
         // Caso especial: 0 e 1 não são primos
         if ( num <= 1) {
